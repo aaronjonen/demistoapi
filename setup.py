@@ -7,7 +7,7 @@ setup(
         "demistoapi"
     ],
     license='MIT',
-    long_description=open('README.md').read(),
+    long_description="Demisto API SDK",
     install_requires=[
        "requests",
         "urllib3"
