@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='demistoapi',
-    version='0.2',
+    version='0.3',
     packages=[
         "demistoapi"
     ],
