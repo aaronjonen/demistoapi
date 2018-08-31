@@ -56,7 +56,7 @@ class DemistoClient:
             if self.session:
                 r = self.session.request(method, url, headers=h, verify=False, json=data)
                 if r.status_code not in ok_codes:
-                    raise RuntimeError('Error searching incidents - %d (%s)' % (r.status_code, r.reason))
+                    raise RuntimeError('Error %d (%s)' % (r.status_code, r.reason))
 
             else:
                 raise RuntimeError("Session not initialized!")
