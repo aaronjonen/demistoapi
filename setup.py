@@ -3,9 +3,10 @@ with open("README.md","r") as fh:
     long_description = fh.read()
 setup(
     name='demistoapi',
-    version='0.5',
+    version='0.6',
     packages=[
-        "demistoapi"
+        "demistoapi",
+        "tests"
     ],
     license='MIT',
     long_description=long_description,
