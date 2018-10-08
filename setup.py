@@ -9,6 +9,9 @@ setup(
     ],
     license='MIT',
     long_description=long_description,
+    url="https://github.com/aaronjonen/demistoapi",
+    author="aaron jonen",
+    author_email="guzzijones12@gmail.com",
     install_requires=[
        "requests",
         "urllib3"
