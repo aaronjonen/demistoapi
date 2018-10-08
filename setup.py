@@ -3,7 +3,7 @@ with open("README.md","r") as fh:
     long_description = fh.read()
 setup(
     name='demistoapi',
-    version='0.4',
+    version='0.5',
     packages=[
         "demistoapi"
     ],
@@ -11,7 +11,7 @@ setup(
     long_description=long_description,
     url="https://github.com/aaronjonen/demistoapi",
     author="aaron jonen",
-    author_email="guzzijones12@gmail.com",
+    author_email="aaron.jonen@nexteraenergy.com",
     install_requires=[
        "requests",
         "urllib3"
